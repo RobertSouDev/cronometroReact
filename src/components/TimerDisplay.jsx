@@ -1,9 +1,10 @@
 import React from 'react'
 import './TimerDisplay.css'
-const TimerDisplay = () => {
+
+const TimerDisplay = ({time}) => {
   return (
     <div className='timer-display'>
-      00:00
+      {time}
     </div>
   )
 }

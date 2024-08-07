@@ -1,5 +1,6 @@
 import React from 'react'
 import './TimerControls.css'
+
 const TimerControls = () => {
   return (
     <div className='timer-controls'>
