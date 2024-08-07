@@ -1,0 +1,19 @@
+.timer-controls {
+    display: flex;
+    justify-content: center;
+}
+
+.timer-controls  button {
+    background: rgba(0, 119, 255, 0.651);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.timer-controls  button:hover {
+    background: blue;
+}
